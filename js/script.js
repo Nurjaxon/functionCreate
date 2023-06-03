@@ -72,13 +72,23 @@
 
 
 
-    // trunc     (faqat butun sonni oladi)
-function trunc (a) {
-    return parseInt(a)
+//     // trunc     (faqat butun sonni oladi)
+// function trunc (a) {
+//     return parseInt(a)
    
-}
-console.log(trunc (12.3))
+// }
+// console.log(trunc (12.3))
 
+
+
+function abs (num) {
+    if (num<0) {
+        return num  * -1
+    }else {
+        return num
+    }
+}
+console.log(abs(-98))
 
 
 
